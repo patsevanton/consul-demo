@@ -100,7 +100,7 @@
 							<username>root</username>
 							<sources>
 								<source>
-									<location>src/main/resources/backend.service</location>
+									<location>src/main/scripts/client.service</location>
 								</source>
 							</sources>
 						</mapping>
