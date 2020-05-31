@@ -96,7 +96,7 @@
 					<mappings>
 						<mapping>
 							<directory>/opt/backend</directory>
-							<filemode>755</filemode>
+							<filemode>644</filemode>
 							<username>root</username>
 							<sources>
 								<source>
@@ -110,13 +110,13 @@
 							<username>root</username>
 							<sources>
 								<source>
-									<location>${basedir}/target/*.jar</location>
+									<location>target/*.jar</location>
 								</source>
 							</sources>
 						</mapping>
 						<mapping>
 							<directory>/usr/lib/systemd/system</directory>
-							<filemode>755</filemode>
+							<filemode>644</filemode>
 							<username>root</username>
 							<sources>
 								<source>
