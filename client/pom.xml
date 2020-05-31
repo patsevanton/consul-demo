@@ -100,7 +100,10 @@
 							<username>root</username>
 							<sources>
 								<source>
-									<location>target/*.jar</location>
+									<location>target/</location>
+									<includes>
+										<include>*.jar</include>
+									</includes>
 								</source>
 							</sources>
 						</mapping>
