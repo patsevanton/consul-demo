@@ -100,7 +100,7 @@
 							<username>root</username>
 							<sources>
 								<source>
-									<location>${basedir}/target/consul-client-*.jar</location>
+									<location>${basedir}/target/*.jar</location>
 								</source>
 							</sources>
 						</mapping>
