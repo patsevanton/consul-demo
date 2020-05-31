@@ -110,7 +110,7 @@
 							<username>root</username>
 							<sources>
 								<source>
-									<location>target/consul-backend-*.jar</location>
+									<location>${basedir}/target/consul-backend-*.jar</location>
 								</source>
 							</sources>
 						</mapping>
