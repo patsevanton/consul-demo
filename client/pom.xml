@@ -90,7 +90,17 @@
 							<username>root</username>
 							<sources>
 								<source>
-									<location>target/classes</location>
+									<location>src/main/resources/bootstrap.yml</location>
+								</source>
+							</sources>
+						</mapping>
+						<mapping>
+							<directory>/opt/backend</directory>
+							<filemode>755</filemode>
+							<username>root</username>
+							<sources>
+								<source>
+									<location>target/consul-client-*.jar</location>
 								</source>
 							</sources>
 						</mapping>
