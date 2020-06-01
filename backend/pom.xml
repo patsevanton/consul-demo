@@ -121,6 +121,7 @@
 							<directory>/usr/lib/systemd/system</directory>
 							<filemode>644</filemode>
 							<username>root</username>
+							<directoryIncluded>false</directoryIncluded>
 							<sources>
 								<source>
 									<location>src/main/scripts/backend.service</location>
