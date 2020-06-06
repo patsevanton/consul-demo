@@ -74,7 +74,7 @@
 					<distribution>Test 1.0</distribution>
 					<group>Application/Collectors</group>
 					<packager>Anton Patsev</packager>
-					<prefix>/opt/backend</prefix>
+					<prefix>/opt/client</prefix>
 					<defineStatements>
 						<defineStatement>_unpackaged_files_terminate_build 0</defineStatement>
 					</defineStatements>
@@ -85,7 +85,7 @@
 					</requires>
 					<mappings>
 						<mapping>
-							<directory>/opt/backend</directory>
+							<directory>/opt/client</directory>
 							<filemode>644</filemode>
 							<username>root</username>
 							<sources>
