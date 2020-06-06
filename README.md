@@ -29,3 +29,9 @@ systemctl start client
 systemctl status client
 journalctl --full --no-pager -u  client
 ```
+
+![](https://habrastorage.org/webt/dk/75/vn/dk75vniggodr4tp4bcgslrmijcs.png)
+
+![](https://habrastorage.org/webt/li/dz/er/lidzerjeidr2fmb7bnrv7y9ls-k.png)
+
+![](https://habrastorage.org/webt/tu/rk/gn/turkgnmvdtrad7hqtjrul_iqgng.png)
