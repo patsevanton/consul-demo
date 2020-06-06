@@ -95,7 +95,7 @@
 							</sources>
 						</mapping>
 						<mapping>
-							<directory>/opt/backend</directory>
+							<directory>/opt/client</directory>
 							<filemode>755</filemode>
 							<username>root</username>
 							<sources>
