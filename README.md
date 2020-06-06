@@ -27,5 +27,5 @@ yum install -y client/target/rpm/consul-client/RPMS/noarch/consul-client-0.0.1-1
 В файле /opt/client/bootstrap.yml host: ${CONSUL_HOST} меняем на host: DNS-или-IP-адрес-сервера-Consul
 systemctl start client
 systemctl status client
-journalctl --full --no-pager -u  backend
+journalctl --full --no-pager -u  client
 ```
