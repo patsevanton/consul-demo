@@ -21,5 +21,5 @@ git clone https://github.com/patsevanton/consul-demo.git
 cd consul-demo
 mvn clean package
 yum install -y client/target/rpm/consul-client/RPMS/noarch/consul-client-0.0.1-1.noarch.rpm
-В файле /opt/backend/bootstrap.yml host: ${CONSUL_HOST} меняем на host: DNS-или-IP-адрес-сервера-Consul
+В файле /opt/client/bootstrap.yml host: ${CONSUL_HOST} меняем на host: DNS-или-IP-адрес-сервера-Consul
 ```
