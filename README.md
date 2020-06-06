@@ -11,6 +11,8 @@ mvn clean package
 yum install -y backend/target/rpm/consul-backend/RPMS/noarch/consul-backend-0.0.1-1.noarch.rpm
 В файле /opt/backend/bootstrap.yml host: ${CONSUL_HOST} меняем на host: DNS-или-IP-адрес-сервера-Consul
 systemctl start backend
+systemctl status backend
+journalctl --full --no-pager -u  backend
 ```
 
 On consul-client:
@@ -24,4 +26,6 @@ mvn clean package
 yum install -y client/target/rpm/consul-client/RPMS/noarch/consul-client-0.0.1-1.noarch.rpm
 В файле /opt/client/bootstrap.yml host: ${CONSUL_HOST} меняем на host: DNS-или-IP-адрес-сервера-Consul
 systemctl start client
+systemctl status client
+journalctl --full --no-pager -u  backend
 ```
